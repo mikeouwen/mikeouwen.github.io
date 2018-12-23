@@ -1,0 +1,6 @@
+
+#ignore generated site
+_site/
+
+#ignore metadata
+.jekyll-metadata
