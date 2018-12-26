@@ -27,6 +27,7 @@ facebook_username: michaelsong0821
 collections_dir: my_collections
 collections:
     - articles
+    - projects
 
 # Build settings
 markdown: kramdown
