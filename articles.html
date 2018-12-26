@@ -1,0 +1,11 @@
+---
+layout: page
+title: Articles
+permalink: /articles/
+order: 5
+---
+
+{%- for article in site.articles -%}
+	<h3><a href="{{article.article_link}}">{{article.article_title}}</a></h3>
+	{{article.content}}
+{%- endfor %}
