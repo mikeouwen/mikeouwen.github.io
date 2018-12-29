@@ -1,0 +1,12 @@
+---
+layout: page
+title: Games
+permalink: /games/
+order: 3
+---
+
+<div class="video_page">
+	{%- for game in site.games -%}
+			{{game.content}}
+	{%- endfor %}
+</div>

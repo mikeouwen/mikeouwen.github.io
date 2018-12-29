@@ -1,0 +1,12 @@
+---
+layout: page
+title: Videos
+permalink: /videos/
+order: 4
+---
+
+<div class="video_page">
+	{%- for video in site.videos -%}
+			{{video.content}}
+	{%- endfor %}
+</div>

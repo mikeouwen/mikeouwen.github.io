@@ -40,6 +40,10 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit / 2;
 }
 
+h2, h3, h4, h5, h6 {
+	
+  margin-bottom: 0px;
+}
 
 
 /**
@@ -252,3 +256,42 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+
+/**
+ * Videos
+ */
+.video_page {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.video {
+	width: 30%;
+	margin: $spacing-unit/3;
+
+}
+
+h3.video {
+	width: 100%;
+	font-size: 0.875em;
+	margin: 5px 0px;
+
+}
+p.video {
+
+	width: 100%;
+	font-size: 0.8em;
+	margin: 5px 0px;
+
+}
+iframe {
+	width: 100%;
+
+}
+
+
+
+
+ 

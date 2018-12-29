@@ -27,6 +27,8 @@ collections_dir: my_collections
 collections:
     - articles
     - projects
+    - videos
+    - games
 
 # Build settings
 markdown: kramdown
